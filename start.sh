@@ -14,14 +14,6 @@ create_cmd_alias() {
 }
 
 create_venv() {
-  if $($HAS_PYTHON3)
-  then
-    py="python3"
-    pip="pip3"
-  else 
-    py="python"
-  fi
-
   $py --version
   $py -m venv venv
   echo "Virtual environment successfully created.\nEntering virtual environment..."
