@@ -9,6 +9,8 @@ Simple and safe Python-starter script.
 
 ## Usage
 
+Execute this on the root of your project.
+
 ```bash
-sh start.sh [Expected minimum Python version of your project. I.g. 38 (meaning, 3.8). Defaults to 36]
+curl https://raw.githubusercontent.com/marcelovicentegc/py-start/main/start.sh | sh
 ```
